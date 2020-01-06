@@ -7,6 +7,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SimpleAlgorithms", "SimpleA
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "BinarySearch", "BinarySearch\BinarySearch.csproj", "{8B7300B7-4597-4EE7-8BA4-DECAE8D110E7}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SelectionSort", "SelectionSort\SelectionSort.csproj", "{101D2582-EBCA-4368-BF30-5BEED2AA26C3}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -21,6 +23,10 @@ Global
 		{8B7300B7-4597-4EE7-8BA4-DECAE8D110E7}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{8B7300B7-4597-4EE7-8BA4-DECAE8D110E7}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{8B7300B7-4597-4EE7-8BA4-DECAE8D110E7}.Release|Any CPU.Build.0 = Release|Any CPU
+		{101D2582-EBCA-4368-BF30-5BEED2AA26C3}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{101D2582-EBCA-4368-BF30-5BEED2AA26C3}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{101D2582-EBCA-4368-BF30-5BEED2AA26C3}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{101D2582-EBCA-4368-BF30-5BEED2AA26C3}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE

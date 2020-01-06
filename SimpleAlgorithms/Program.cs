@@ -1,4 +1,5 @@
 ﻿using System;
+using System.Collections.Generic;
 
 namespace SimpleAlgorithms
 {
@@ -7,8 +8,13 @@ namespace SimpleAlgorithms
         static void Main(string[] args)
         {
             int[] array = new int[0];
-            BinarySearch.RandomizeArray(ref array,100000000);
-            BinarySearch.Find(array[3], array);
+            List<int> list = new List<int>();
+            List<int> sortedList;
+            //BinarySearch.RandomizeArray(ref array,100000000,true);
+           // BinarySearch.Find(array[3], array);
+
+            BinarySearch.RandomizeList(ref list, 10000, false);
+            SelectionSort.Sort(list,out sortedList);
         }
     }
 }
