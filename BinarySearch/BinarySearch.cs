@@ -56,7 +56,7 @@ namespace SimpleAlgorithms
 
             //Заполнение списка
             for (int i = 0; i < N; i++)
-                list.Add(random.Next(0, Int32.MaxValue));
+                list.Add(random.Next(0, 10));
             //Сортировка списка
             if (isSort)
                 list.Sort();
