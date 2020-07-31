@@ -15,8 +15,9 @@ namespace SimpleAlgorithms
 
             BinarySearch.RandomizeList(ref list, 10000, false);
             SelectionSort.Sort(list,out sortedList);
-            BinarySearch.RandomizeList(ref list, 10, false);
+            BinarySearch.RandomizeList(ref list, 10000, false);
             QuickSort.Sort(list);
+            DataSet.DataSet.GenMatrixGraph(6,10);
         }
     }
 }
