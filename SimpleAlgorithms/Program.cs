@@ -1,5 +1,6 @@
 ﻿using System;
 using System.Collections.Generic;
+using DynamicProgramming;
 using GraphAlgorithms;
 
 namespace SimpleAlgorithms
@@ -28,7 +29,8 @@ namespace SimpleAlgorithms
                                   {14,0,2,0,9,0}
                                 }; 
             Dijkstras.Find(test_graph, 0, 5);
-            Floyd.Find(test_graph, 0, 5);        
+            Floyd.Find(test_graph, 0, 5);
+            KnapsackProblem.Solve(new Dictionary<int, int>() { { 5, 10}, { 7, 15}, { 12, 5}, { 15, 4} }, 1000);
         }
     }
 }
