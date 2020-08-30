@@ -9,7 +9,7 @@
     <ProjectReference Include="..\BFS\BFS.csproj" />
     <ProjectReference Include="..\BinarySearch\BinarySearch.csproj" />
     <ProjectReference Include="..\DataSet\DataSet.csproj" />
-    <ProjectReference Include="..\Dijkstras\Dijkstras.csproj" />
+    <ProjectReference Include="..\Dijkstras\GraphAlgorithms.csproj" />
     <ProjectReference Include="..\QuickSort\QuickSort.csproj" />
     <ProjectReference Include="..\SelectionSort\SelectionSort.csproj" />
   </ItemGroup>

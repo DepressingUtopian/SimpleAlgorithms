@@ -2,7 +2,7 @@
 using System.Collections.Generic;
 using System.Linq;
 
-namespace SimpleAlgorithms
+namespace GraphAlgorithms
 {
     public class Dijkstras
     {
@@ -19,7 +19,7 @@ namespace SimpleAlgorithms
             for (int i = 0; i < n; i++)
                 d.Add(graph[idx_start_node, i]);
 
-            
+            p.Add(idx_start_node);
 
             while (!U.Contains(idx_goal_node)) 
             {
@@ -40,7 +40,7 @@ namespace SimpleAlgorithms
                         {
                             d[i] = d[min_weight_node_idx] + graph[min_weight_node_idx, i];
 
-                            if(!p.Contains(min_weight_node_idx))
+                            if(!p.Contains(min_weight_node_idx) && logic1)
                                         p.Add(min_weight_node_idx);
 
                         }
@@ -48,6 +48,9 @@ namespace SimpleAlgorithms
 
                 }
             }
+
+            p.Add(idx_goal_node);
+
             return (d,p);   
         }
 

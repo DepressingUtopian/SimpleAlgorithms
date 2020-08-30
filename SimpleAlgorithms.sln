@@ -11,11 +11,11 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "SelectionSort", "SelectionS
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "QuickSort", "QuickSort\QuickSort.csproj", "{DF224953-391E-4C27-B1B1-303CD7DF1049}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "DataSet", "DataSet\DataSet.csproj", "{65293D2D-C6AE-48D4-A58B-9CB60548887D}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "DataSet", "DataSet\DataSet.csproj", "{65293D2D-C6AE-48D4-A58B-9CB60548887D}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "BFS", "BFS\BFS.csproj", "{6995A303-0AF9-4E29-8708-C08DE0D349FF}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "BFS", "BFS\BFS.csproj", "{6995A303-0AF9-4E29-8708-C08DE0D349FF}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Dijkstras", "Dijkstras\Dijkstras.csproj", "{A3BC6181-B8C5-41DB-B906-16826022EA91}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "GraphAlgorithms", "Dijkstras\GraphAlgorithms.csproj", "{A3BC6181-B8C5-41DB-B906-16826022EA91}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
