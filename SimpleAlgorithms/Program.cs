@@ -19,6 +19,14 @@ namespace SimpleAlgorithms
             QuickSort.Sort(list);
             var graph =  DataSet.DataSet.GenMatrixGraph(6,10);
             BFS.Find(graph,1,5);
+            int[,] test_graph = { {0,7,9,0,0,14},
+                                  {7,0,10,15,0,0},
+                                  {9,10,0,11,0,2},
+                                  {0,15,11,0,6,0},
+                                  {0,0,0,6,0,9},
+                                  {14,0,2,0,9,0}
+                                }; 
+            Dijkstras.Find(test_graph, 0, 5);
         }
     }
 }
