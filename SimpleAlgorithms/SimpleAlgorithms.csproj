@@ -11,6 +11,7 @@
     <ProjectReference Include="..\DataSet\DataSet.csproj" />
     <ProjectReference Include="..\Dijkstras\GraphAlgorithms.csproj" />
     <ProjectReference Include="..\DynamicProgramming\DynamicProgramming.csproj" />
+    <ProjectReference Include="..\OtherAlgorithms\OtherAlgorithms.csproj" />
     <ProjectReference Include="..\QuickSort\Sort.csproj" />
   </ItemGroup>
 

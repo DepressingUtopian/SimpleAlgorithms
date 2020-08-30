@@ -15,7 +15,9 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "BFS", "BFS\BFS.csproj", "{6
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "GraphAlgorithms", "Dijkstras\GraphAlgorithms.csproj", "{A3BC6181-B8C5-41DB-B906-16826022EA91}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "DynamicProgramming", "DynamicProgramming\DynamicProgramming.csproj", "{4A61454F-30B5-4C9C-94F3-BBB42C38CE99}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "DynamicProgramming", "DynamicProgramming\DynamicProgramming.csproj", "{4A61454F-30B5-4C9C-94F3-BBB42C38CE99}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "OtherAlgorithms", "OtherAlgorithms\OtherAlgorithms.csproj", "{70C43791-B479-44C0-AE4B-305FE5ADC646}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -51,6 +53,10 @@ Global
 		{4A61454F-30B5-4C9C-94F3-BBB42C38CE99}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{4A61454F-30B5-4C9C-94F3-BBB42C38CE99}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{4A61454F-30B5-4C9C-94F3-BBB42C38CE99}.Release|Any CPU.Build.0 = Release|Any CPU
+		{70C43791-B479-44C0-AE4B-305FE5ADC646}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{70C43791-B479-44C0-AE4B-305FE5ADC646}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{70C43791-B479-44C0-AE4B-305FE5ADC646}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{70C43791-B479-44C0-AE4B-305FE5ADC646}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE

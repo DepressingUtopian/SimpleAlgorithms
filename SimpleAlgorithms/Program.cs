@@ -1,7 +1,10 @@
 ﻿using System;
 using System.Collections.Generic;
+using System.IO;
+using System.Text.Json;
 using DynamicProgramming;
 using GraphAlgorithms;
+using OtherAlgorithms;
 
 namespace SimpleAlgorithms
 {
@@ -31,6 +34,12 @@ namespace SimpleAlgorithms
             Dijkstras.Find(test_graph, 0, 5);
             Floyd.Find(test_graph, 0, 5);
             KnapsackProblem.Solve(new Dictionary<int, int>() { { 5, 10}, { 7, 15}, { 12, 5}, { 15, 4} }, 1000);
+     
+            using (FileStream fs = new FileStream(@"C:\Users\HexMage\Source\Repos\SimpleAlgorithms\SimpleAlgorithms\dataset\json\points.json", FileMode.OpenOrCreate))
+            {
+               var points = JsonSerializer.DeserializeAsync<List<Point>>(fs).Result;
+               NearestNeighbors.Classify(points, new Point("Test", 44, 55), 5);
+            }
         }
     }
 }
