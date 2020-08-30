@@ -5,6 +5,7 @@ using System.Text.Json;
 using DynamicProgramming;
 using GraphAlgorithms;
 using OtherAlgorithms;
+using Sort;
 
 namespace SimpleAlgorithms
 {
@@ -22,6 +23,8 @@ namespace SimpleAlgorithms
             SelectionSort.Sort(list,out sortedList);
             DataSet.DataSet.RandomizeList(ref list, 10000, false);
             QuickSort.Sort(list);
+            DataSet.DataSet.RandomizeList(ref list, 10000, false);
+            InsertSort.Sort(list);
             var graph =  DataSet.DataSet.GenMatrixGraph(6,10);
             BFS.Find(graph,1,5);
             int[,] test_graph = { {0,7,9,0,0,14},
@@ -39,6 +42,7 @@ namespace SimpleAlgorithms
             {
                var points = JsonSerializer.DeserializeAsync<List<Point>>(fs).Result;
                NearestNeighbors.Classify(points, new Point("Test", 44, 55), 5);
+
             }
         }
     }
